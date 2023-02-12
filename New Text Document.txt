@@ -1,0 +1,30 @@
+Bonus:  
+
+Add restore button on index page to restore deleted posts you will need to use soft  delete
+Add View Ajax Button that opens Bootstrap Modal , showing post info (title ,  description , username, useremail) using ajax request
+
+ 
+Use php artisan ui:auth , to scaffold the auth page
+-Modify on the current navbar , and make it use the laravel
+default auth navbar , and also we need the link to All Posts
+(Do whatever you see suits the case)
+-Add Authentication middleware on all posts routes , and
+make anyone who isn’t authenticated to redirect back to
+login page
+
+
+Bonus: 
+ 
+Make custom validation rule , that makes sure the user is only allowed to
+create 3 posts and if he exceeded this number we show a validation error
+message
+
+-Use this package to add Tags to post , the user will enter comma separated tags
+https://github.com/spatie/laravel-tags
+
+
+!- create apis for your Posts application
+ 
+2- use sanctum package to authenticate the store , update apis routes
+ 
+3- apply login with github 
